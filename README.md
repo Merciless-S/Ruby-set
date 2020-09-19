@@ -1,5 +1,14 @@
 # Kudu-rubyset
 
+## Steps to play
+
+Install ruby and ruby on rails if you have not already.
+
+1. clone and cd into this repo
+2. Install dependencies by running the command  `bundle install`
+3. Start the server by running the command `rails server`
+4. Visit http://localhost:3000/ in your favorite browser! (Tested in chrome)
+
 ## Development
 
 1. clone and cd into this repo
