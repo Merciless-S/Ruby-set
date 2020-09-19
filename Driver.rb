@@ -10,7 +10,7 @@ end
 for i in 1...5
     set = Utility.check_if_contains_set(cards)
     for i in 0...12
-        puts "index: #{i}, color: #{cards[i].color}, #{cards[i].shape}, #{cards[i].number}"
+        puts "index: #{i}, shading: #{cards[i].shading}, color: #{cards[i].color}, #{cards[i].shape}, #{cards[i].number}"
     end
     puts "Do u wanna get a hint? (y/n)"
     decision = gets.chomp

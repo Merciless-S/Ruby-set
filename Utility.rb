@@ -27,7 +27,8 @@ module Utility
         unique_color = [a.color,b.color,c.color].to_set.size()
         unique_shape = [a.shape,b.shape,c.shape].to_set.size()
         unique_number = [a.number, b.number, c.number].to_set.size()
-        if (unique_color == 3 or unique_color == 1) and (unique_shape == 3 or unique_shape == 1) and (unique_number == 3 or unique_number == 1)
+	unique_shading = [a.shading, b.shading, c.shading].to_set.size()
+        if (unique_shading == 3 or unique_shading == 1) and (unique_color == 3 or unique_color == 1) and (unique_shape == 3 or unique_shape == 1) and (unique_number == 3 or unique_number == 1)
             return true
         end
         return false
