@@ -48,6 +48,11 @@ class GamesController < ApplicationController
   def new
     # Create a new game
     @game = Game.new
+  end
+
+  # Post create action that creates a new game
+  def create
+    @game = Game.new
 
     # Set score and 
     @game.score = 0
@@ -65,11 +70,6 @@ class GamesController < ApplicationController
     @game.card10 = Card.new().tostring()
     @game.card11 = Card.new().tostring()
     @game.card12 = Card.new().tostring()
-  end
-
-  # Post create action that creates a new game
-  def create
-    @game = Game.new(post_params)
 
     if @game.save
       redirect_to @game

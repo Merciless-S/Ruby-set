@@ -1,24 +1,4 @@
 <h1>Create New Game</h1>
 <%= simple_form_for @game do |f| %>
-  <div>
-    <%= f.input :score %>
-  </div>
-  <div>
-    <%= f.input :cardsleft %>
-  </div>
-  <div>
-    <%= f.input :card1 %>
-    <%= f.input :card2 %>
-    <%= f.input :card3 %>
-    <%= f.input :card4 %>
-    <%= f.input :card5 %>
-    <%= f.input :card6 %>
-    <%= f.input :card7 %>
-    <%= f.input :card8 %>
-    <%= f.input :card9 %>
-    <%= f.input :card10 %>
-    <%= f.input :card11 %>
-    <%= f.input :card12 %>
-  </div>
   <%= f.button :submit, 'Create new game' %>
 <% end %>
