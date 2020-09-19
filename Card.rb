@@ -1,4 +1,4 @@
-class Cards
+class Card
     
     #Color means the color of the card, Red = 0, blue = 1, yellow = 2, etc
     #shape means the shape of the card. Circle = 0, rectangle = 1, triangle = 2, etc
@@ -19,4 +19,5 @@ class Cards
     
     def number
         @number
+    end
 end
