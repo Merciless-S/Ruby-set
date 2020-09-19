@@ -1,4 +1,5 @@
 require_relative "Utility"
+require_relative "Computer"
 
 puts "Welcome to the game"
 cards = Utility.generateCard()
@@ -6,6 +7,7 @@ score = 0
 while Utility.check_if_contains_set(cards).size() == 0
     cards = Utility.generateCard()
 end
+#Thread.new { Computer.EasyDifficulty(cards) }
 #set = Utility.check_if_contains_set(cards)
 for i in 1...5
     set = Utility.check_if_contains_set(cards)
