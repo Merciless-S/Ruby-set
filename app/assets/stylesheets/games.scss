@@ -2,6 +2,13 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
 
+$pad-card: 10px;
+$color-0: red;
+$color-1: green;
+$color-2: purple;
+$card-selected-transform: scale(1.05);
+$card-selected-bg: #d4f2f5;
+
 .card-grid {
   display: grid;
   grid-template-columns: auto auto auto auto;
@@ -13,9 +20,17 @@
   position: relative;
   // Each card should have aspect ratio of 1/1.5
   padding-bottom: 150%;
+  // invisible checkbox
+  input[type="checkbox"] {
+    display: none;
+    // if checkbox is checked, change style of card
+    &:checked + .card {
+      transform: $card-selected-transform;
+      background: $card-selected-bg;
+    }
+  }
 }
 
-$pad-card: 10px;
 .card {
   position: absolute;
   top: $pad-card;
@@ -24,15 +39,13 @@ $pad-card: 10px;
   right: $pad-card;
   border-radius: 20px;
   background: white;
-  box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.2);
+  border: 2px solid black;
   padding: 15%;
   display: flex;
   flex-direction: column;
+  cursor: pointer;
+  transition: .1s;
 }
-
-$color-0: red;
-$color-1: green;
-$color-2: purple;
 
 .color-0 path {
   stroke: $color-0;
