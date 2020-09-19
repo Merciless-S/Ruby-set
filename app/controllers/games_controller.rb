@@ -25,18 +25,18 @@ class GamesController < ApplicationController
     @game.score = 0
     @game.cardsleft = 80
 
-    @game.card1 = Card.new().tostring()
-    @game.card2 = Card.new().tostring()
-    @game.card3 = Card.new().tostring()
-    @game.card4 = Card.new().tostring()
-    @game.card5 = Card.new().tostring()
-    @game.card6 = Card.new().tostring()
-    @game.card7 = Card.new().tostring()
-    @game.card8 = Card.new().tostring()
-    @game.card9 = Card.new().tostring()
-    @game.card10 = Card.new().tostring()
-    @game.card11 = Card.new().tostring()
-    @game.card12 = Card.new().tostring()
+    @game.card1 = Card.new().to_s
+    @game.card2 = Card.new().to_s
+    @game.card3 = Card.new().to_s
+    @game.card4 = Card.new().to_s
+    @game.card5 = Card.new().to_s
+    @game.card6 = Card.new().to_s
+    @game.card7 = Card.new().to_s
+    @game.card8 = Card.new().to_s
+    @game.card9 = Card.new().to_s
+    @game.card10 = Card.new().to_s
+    @game.card11 = Card.new().to_s
+    @game.card12 = Card.new().to_s
 
     if @game.save
       redirect_to @game

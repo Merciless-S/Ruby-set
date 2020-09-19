@@ -28,7 +28,7 @@ class Card
   end
 
   # 3 digits in order of: shape color style count
-  def tostring
+  def to_s
     @color.to_s + @shape.to_s + @style.to_s + @count.to_s
   end
 end
