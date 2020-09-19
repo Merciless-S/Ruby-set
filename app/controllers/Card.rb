@@ -4,11 +4,11 @@ class Card
   # Shape means the shape of the card. pill = 0, swiggly = 1, diamond = 2
   # Style means the style of the card. filled = 0, outline = 1, striped = 2
   # Count is the number of shapes shown on the card.
-  def initialize
-    @color = rand(0..2)
-    @shape = rand(0..2)
-    @style = rand(0..2)
-    @count = rand(1..3)
+  def initialize(s)
+    @color = s[0].to_i
+    @shape = s[1].to_i
+    @style = s[2].to_i
+    @count = s[3].to_i
   end
       
   def color
