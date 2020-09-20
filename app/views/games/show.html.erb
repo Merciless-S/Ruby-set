@@ -1,5 +1,7 @@
-<h1>Game <%= @game.id %></h1>
 <%= link_to "< Back to Games", :controller => "games", :action => "index" %>
+<h1>Game <%= @game.id %></h1>
+<h2>Highlight a set of 3 and press submit when you have a proper set!</h2>
+<button type="button">Submit!</button>
 <div class="card-grid">
   <!-- Draw all cards -->
   <% @game.cardArray().each_with_index do |card, index| %>
@@ -36,3 +38,4 @@
     </pattern>
   <% end %>
 </svg>
+
