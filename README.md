@@ -2,7 +2,8 @@
 
 ## Steps to play
 
-1. clone and cd into this repo
-2. Install Shoes!. Following steps in http://shoesrb.com/manual/Installing.html
-3. Open Shoes! and click "Open an App"
-4. You should see a file selector box. Browse to shoes/index.rb and hit Open.
+1. Open your terminal in Linux environment, type gem install colorize
+2. Clone the repositary to local
+3. type ruby Driver.rb in terminal to start the game
+4. follow prompt and play.
+5. Use control + c to return to terminal and exist the game
