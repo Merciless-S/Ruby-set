@@ -5,3 +5,7 @@
 2. cd to the folder containing the installation file (Downloads defaulted)
 3. Run the following code to make it executable
 4. You should see a file selector box. Browse to shoes/index.rb and hit Open.
+
+<code>
+        Whatever code you want to show
+    </code>
