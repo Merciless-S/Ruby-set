@@ -1,5 +1,17 @@
 # Kudu-rubyset
 
+Our team offer you two ways to play the game, either in terminal or the shoes GUI
+
+# If you want to play it in terminal:
+## Steps to play
+1. Open your terminal in Linux environment, type gem install colorize
+2. Clone the repositary to local
+3. change you current directory to Play_in_Terminal by type "cd Play_in_Terminal"
+4. type ruby Driver.rb in terminal to start the game
+5. follow prompt and play.
+6. Use control + c to return to terminal and exist the game
+
+# If you want to play it in shoes:
 ## Install Shoes!
 1. Go to [Shoes! download page](http://shoesrb.com/downloads/) and download [Shoes3.2(federales)](https://shoes.mvmanila.com/public/shoes/shoes-3.2.25-gtk2-x86_64.install) (Shoes 3.2 for Linux 64 bit)
 2. cd to the folder containing the installation file (Downloads defaulted)
