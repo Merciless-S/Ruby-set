@@ -8,7 +8,7 @@ This project is about developing a this game in Linux environment by using ruby,
 1. Open your terminal in Linux environment, type `gem install colorize`
 2. Clone the repositary to local
 3. change you current directory to Play_in_Terminal by type `cd Play_in_Terminal`
-4. type ruby Driver.rb in terminal to start the game
+4. type `ruby Driver.rb` in terminal to start the game
 5. follow prompt and play.
 6. Use control + c to return to terminal and exist the game
 
