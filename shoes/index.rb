@@ -9,6 +9,7 @@ Shoes.app do
                 "../images/"+cards[0].to_s+".png",
             )
             button "select"
+            #@b1.click{para "ok"}
             image(
                 "../images/"+cards[1].to_s+".png",
             )
