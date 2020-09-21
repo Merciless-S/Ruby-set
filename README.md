@@ -1,12 +1,13 @@
 # Kudu-rubyset
+"Set" is a card game in which players attempt to find a group of cards that satisfy a particular criterion. It is a speed game: 12 cards are dealt face-up, and the players try to be the first to make a set from the visible cards. For a complete description of the game see the Wikipedia entry https://en.wikipedia.org/wiki/Set_(card_game).
 
 Our team offer you two ways to play the game, either in terminal or the shoes GUI
 
 # If you want to play it in terminal:
 ## Steps to play
-1. Open your terminal in Linux environment, type gem install colorize
+1. Open your terminal in Linux environment, type `gem install colorize`
 2. Clone the repositary to local
-3. change you current directory to Play_in_Terminal by type "cd Play_in_Terminal"
+3. change you current directory to Play_in_Terminal by type `cd Play_in_Terminal`
 4. type ruby Driver.rb in terminal to start the game
 5. follow prompt and play.
 6. Use control + c to return to terminal and exist the game
