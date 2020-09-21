@@ -1,7 +1,7 @@
 # Kudu-rubyset
 "Set" is a card game in which players attempt to find a group of cards that satisfy a particular criterion. It is a speed game: 12 cards are dealt face-up, and the players try to be the first to make a set from the visible cards. For a complete description of the game see the Wikipedia entry https://en.wikipedia.org/wiki/Set_(card_game).
 
-Our team offer you two ways to play the game, either in terminal or the shoes GUI
+This project is about developing a this game in Linux environment by using ruby, and many fun features were added to make the game more fun, such as timer, stats, hinter, etc. We even offers you two ways to play the game, either in terminal or the shoes GUI. Hope your will enjoy the game!
 
 # If you want to play it in terminal:
 ## Steps to play
