@@ -6,10 +6,7 @@
 3. Run `chmod +x shoes-3.2.25-gtk2-x86_64.install` to make it executable
         
 4. You may be asked to enter your password
-5. Run the following code to run the installer
-<code>
-        ./shoes-3.2.23-gtk2-i686.install
-</code>
+5. Run `./shoes-3.2.23-gtk2-i686.install` to run the installer
 4. You should see a file selector box. Browse to shoes/index.rb and hit Open.
 
 ## Run the Game!
