@@ -19,6 +19,6 @@
 1. Click on the card to select your combination of three cards to make a set
 2. The border of the card will turn red if you successfully select the card
 3. To unchoose a card, just click on the card again
-4. If you make up a ###set, your combination will have a blue border. The window will refresh to a new game and your score will show on the left top
+4. If you make up a set, your combination will have a blue border. The window will refresh to a new game and your score will show on the left top
 5. To start a new game, click on the "Start New Game" button or hit space
 6. Have a Good Game!
